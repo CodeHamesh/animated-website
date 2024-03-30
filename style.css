@@ -1,0 +1,110 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #fff;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+   
+    
+}
+
+#home{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+ 
+}
+#home video{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    position: absolute;
+   overflow: hidden;
+}
+#page1{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(43, 44, 44, 0);
+    position: relative;
+    z-index: 2;
+    
+}
+#page1 nav {
+    padding: 2vw 2vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+nav h1{
+    font-size: 1.5vw;
+    color: #ffffffd5;
+}
+.dot{
+    width: 7vw;
+    height: 7vw;
+    background-color: #ff5f38;
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+}
+.dot h1{
+    font-size: 1vw;
+    color: #111;
+    text-transform: capitalize;
+}
+.heading{
+    position: absolute;
+    bottom: 0.1vw;
+    left: 1vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.heading h1{
+    font-size: 17vw;
+}
+#page2{
+    width: 100%;
+    height: 100vh;
+    padding: 1vw;
+    overflow: hidden;
+}
+#one{
+    width: 100%;
+    padding: 2vw;
+    background-color: aquamarine;
+    color: #111;
+   
+
+}
+#one h1{
+    color: #111;
+}
